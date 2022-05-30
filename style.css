@@ -138,6 +138,7 @@ input,button {
 .app__item > .app__task_input {
   width: 226px;
 }
+
 .app__btn-img {
   height: 2em;
   transform: rotateZ(45deg);
