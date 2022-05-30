@@ -4,46 +4,59 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .ad-block {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .ad-block__img {
   width: 100%;
 }
-.ad-block__link{
+
+.ad-block__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.ad-block { text-align: center;
+
+  .ad-block { 
+    text-align: center;
+  }
+
 }
-}
+
 .app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .app__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .app__task-container {
   display: flex;
 }
+
 .app__tasks {
   margin: 0;
   padding: 0px;
 }
+
 .app__item, .app__title {
   list-style: none;
 }
-input,button{
+
+input,button {
   outline: none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -53,9 +66,11 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .button:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .app__title,
 .app__add-label {
@@ -67,6 +82,7 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
+
 #new-task, .app__task_input {
   margin: 0;
   font-size: 18px;
@@ -79,6 +95,7 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 #new-task:focus, .app__task_input:focus {
   color: #333;
 }
@@ -88,6 +105,7 @@ input,button{
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -97,11 +115,11 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .app__item > * {
   vertical-align: middle;
 }
@@ -109,13 +127,15 @@ input,button{
 .app__item > .app__checkbox {
   margin: 0 10px;
 }
+
 .app__item > .app__task_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.app__item >    .app__task_input {
+
+.app__item > .app__task_input {
   width: 226px;
 }
 .app__btn-img {
@@ -123,6 +143,7 @@ input,button{
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .app__btn-img:hover {
   transform: rotateZ(0);
 }
