@@ -128,18 +128,18 @@ button {
   vertical-align: middle;
 }
 
-.app__item > .app__checkbox {
+.app__checkbox {
   margin: 0 10px;
 }
 
-.app__item > .app__task_label {
+.app__task_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.app__item > .app__task_input {
+.app__task_input {
   width: 226px;
 }
 
