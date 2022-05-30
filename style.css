@@ -49,11 +49,13 @@ body {
   padding: 0px;
 }
 
-.app__item, .app__title {
+.app__item,
+.app__title {
   list-style: none;
 }
 
-input,button {
+input,
+button {
   outline: none;
 }
 
@@ -83,7 +85,8 @@ input,button {
   text-transform: uppercase;
 }
 
-#new-task, .app__task_input {
+#new-task,
+.app__task_input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +99,8 @@ input,button {
   color: #888;
 }
 
-#new-task:focus, .app__task_input:focus {
+#new-task:focus,
+.app__task_input:focus {
   color: #333;
 }
 
